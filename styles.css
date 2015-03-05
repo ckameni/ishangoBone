@@ -1,0 +1,167 @@
+/*============================================= Gesamte Einstellungen =================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*============================================= body =================*/
+body {
+    text-align: center;
+    background-image: url(bilder/duene.jpg);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+/*============================================= Aktivieren der jeweiligen Elemente =================*/
+header, nav, footer, aside, section {
+    display: block;
+}
+/*============================================= wrapper =================*/
+#wrapper {
+    /* background-color: #eeeeee; */
+    width: 900px;
+    /*border: 2px solid red;*/
+    margin: 0 auto;
+    text-align: left; 
+    background-image: url(bilder/durchsichtig8.png); 
+}
+/*============================================= logotext =================*/
+#logotext {
+    padding-top: 50px;
+    font-size: 20pt;
+    color: white;
+}
+
+/*============================================= header =================*/
+header {
+    /*background-color: yellow;*/
+    background-image: url(bilder/wuestenlaeufer-1-ohr.png);
+    height: 151px;
+    width: 900px;
+    margin: 0 auto;
+   
+}
+
+header p {
+    /*background-color: orange;*/
+    text-align: right;
+    padding-right: 15px;
+}
+
+header a {
+    color: white;
+}
+/*==============================================  steuerung oben =================*/
+#steuerungoben {
+   /* background-color: red;*/
+    background-image: url(bilder/grau-50.png);
+    height: 24px;
+}
+
+#steuerungoben ul {
+    list-style-type: none;
+}
+
+#steuerungoben li {
+    display: inline;
+}
+
+#steuerungoben a { /*=== link-tag bearbeiten ====*/
+    display: block;
+    width: 230px;
+    /*background-color: yellow;*/
+    float: left;  /*=== Elemente dürfen umflossen werden; das bringt alle Elemente auf eine und dieselbe Zeile ====*/
+    /*border-right: 1px solid red;+/ /*=== setz ein Rahmen rechts von jedem Element ====*/
+    text-align: center;/*=== zentriert jedes Element ====*/
+    line-height:24px;
+    color: white;
+    text-decoration:none;
+}
+
+
+#steuerungoben a:hover {/*=== ':hover' wird aktiviert,wenn die Mause über einen Bereich schwebt	====*/
+    background-image: url(bilder/grau-50.png);
+}
+/*==============================================  steuerunglinks =================*/
+#steuerunglinks {
+     /* background-color: green; */
+    width: 220px;
+    float: left;
+}
+
+#steuerunglinks ul {  /*=== 1. lu-Ebene ====*/
+    list-style-type: none;
+    padding-left: 2em;
+    padding-top: 20px;
+}
+
+#steuerunglinks ul ul { /*=== 2. lu-Ebene ====*/
+    list-style-type: square;
+}
+
+#steuerunglinks li {
+    padding-bottom: 0.5em;
+}
+/*============================================= aside =================*/
+aside {
+    /* background-color: #808000; */
+    width: 175px;
+    float: right;
+}
+
+aside p {
+    margin-left: 10px;
+}
+
+aside img {
+   /* margin-left: 10px;*/
+    border:1px solid silver;
+}
+
+
+/*==============================================  section =================*/
+section {
+    /*background-color: orange;*/
+    margin-left: 250px;
+    margin-right: 195px;
+}
+
+section h1 {
+    padding-top: 20px;
+    padding-bottom: 0.4em;
+    color: #dd9661;
+
+}
+
+section p {
+    padding-bottom: 1em;
+}
+
+section h2 {
+    color: #dd9661;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+}
+
+section ul {
+    padding-left: 3em;
+}
+
+section li {
+    padding-bottom: 0.5em;
+}
+/*==============================================  footer =================*/
+footer {
+    /* background-color: brown; */
+    background-image: url(bilder/grau-50.png);
+    color: white;
+    text-align: center;
+    clear: both;
+}
+/*============================================= h1=================*/
+
+
+
+
+
+
+
